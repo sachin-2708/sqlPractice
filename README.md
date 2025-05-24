@@ -15,3 +15,4 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Problem Name          | Difficulty | Status    | Notes                          |
 |-----------------------|------------|-----------|--------------------------------|
 | LinkedIn Top Voice    | Medium     | Completed | Learned to use DATE_FORMAT, Year and Month functions |
+| Electricity Consumption    | Easy     | Completed | Practised Agg functions SUM and AVG and string function LEFT |
