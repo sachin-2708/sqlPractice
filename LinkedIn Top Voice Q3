@@ -13,7 +13,7 @@ select c.creator_name,
 from creators c
 left join posts p 
 on p.creator_id = c.creator_id
-where publish_date between '2023-12-01' and '2023-12-31'
+where year(publish_date) = '2023' and month(publish_date) = '12'
 and c.followers > 50000
 group by c.creator_name
 having sum(p.impressions) > 100000
