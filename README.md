@@ -19,5 +19,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Math Champion    | Easy     | Completed | Used Subquery to find overall Avg value to use in the main query |
 | Deliveroo Top Customer    | Easy     | Completed | Revised Order By and Limit functions |
 | Employee Salary Levels | Easy     | Completed | Learned to use CTE, CASE WHEN statements and AVG and GROUP BY functions |
+| Income Tax Returns | Medium     | Completed | Used CTE and CROSS JOINs to identify missed return and applied Multiple ON conditions to join the CTE to main table |
 
 
