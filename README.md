@@ -22,6 +22,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Income Tax Returns | Medium     | Completed | Used CTE and CROSS JOIN to identify missed return and Used Case When condition with operators and applied Multiple ON conditions to join the CTE to main table |
 | Software vs Data Analytics Engineers | Medium     | Completed | Practised SUM and CASE WHEN statements with wildcard |
 | Malware Detection | Hard     | Completed | Learned ROW_NUMBER, LEAD and COUNT window functions, used it in CTE to query data based on the given conditions |
+| Warikoo 20-6-20 | Medium     | Completed | Practised Cross Join and Group Concat function and employed arthimetic logics |
 
 
 
