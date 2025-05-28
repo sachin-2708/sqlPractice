@@ -27,6 +27,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Employee vs Manager | Medium     | Completed | Practised Self Join which is critical if you only have one table for analysis |
 | Cancellation vs Return | Hard     | Completed | CTE & CASE WHEN THEN statement utilised. Understood concept of order returned and no returned, cancelled and not cancelled |
 | GAP Sales | Easy     | Completed | Practised Group By 2 columns and sum |
+| Walmart Sales Pattern | Hard     | Completed | Used multiple CTEs to come up with the solution; incorporated RANK window function in first CTE and then CASE WHEN, MAX function in the next CTE |
 
 
 
