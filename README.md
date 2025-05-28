@@ -24,6 +24,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Malware Detection | Hard     | Completed | Learned ROW_NUMBER, LEAD and COUNT window functions, used it in CTE to query data based on the given conditions |
 | Warikoo 20-6-20 | Medium     | Completed | Practised Cross Join and Group Concat function and employed arthimetic logics |
 | Average Order Value | Medium     | Completed | Used ROW_NUMBER AND MAX() OVER() functions to find difference of min and max avg values |
-
+| Employee vs Manager | Medium     | Completed | Practised Self Join which is critical if you only have one table for analysis |
 
 
