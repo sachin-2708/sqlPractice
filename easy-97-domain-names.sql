@@ -9,5 +9,5 @@
 +-------------+-------------+*/
 
 SELECT email, 
-SUBSTRING_INDEX(email, '@', -1) AS domain_name
+SUBSTRING_INDEX(email, '@', -1) AS domain_name -- @ is the delimiter and -1 means give me the part of the string after the first occurence of @ from the end
 FROM customers;
