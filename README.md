@@ -31,6 +31,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Zomato Customer Behavior | Hard     | Completed | Used multiple CTEs, DAYOFWEEK, CASE WHEN and SUM, AVG functions to come up with solution |
 | Electronics Items Sale | Easy     | Completed | Practiced multiple conditions in Having clause after using AVG aggregation |
 | AirBnB Business | Medium     | Completed | Used 3 CTEs and RANK windows function to come up with the AVG occupancy rate of rooms |
+| Domain Names | Easy     | Completed | Practised the Substring_Index string function to get the domain name after @ |
 
 
 
