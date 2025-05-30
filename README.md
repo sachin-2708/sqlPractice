@@ -34,4 +34,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Domain Names | Easy     | Completed | Practised the Substring_Index string function to get the domain name after @ |
 | Subject Average Score | Easy     | Completed | Tricky Question -- Required Sub-query, used DISTINCT function and HAVING |
 | Spotify Popular Tracks | Medium     | Completed | Used COUNT DISTINCT in CTE as well as in the Main Query to filter the accurate data and used Limit to get top 2 entries. Alternatively a subquery can also be used. |
+| Uber Driver Ratings | Medium     | Completed | Used NTILE() window function to divide the data into a group based on performance parameters |
 
