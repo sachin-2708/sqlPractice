@@ -33,4 +33,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | AirBnB Business | Medium     | Completed | Used 3 CTEs and RANK windows function to come up with the AVG occupancy rate of rooms |
 | Domain Names | Easy     | Completed | Practised the Substring_Index string function to get the domain name after @ |
 | Subject Average Score | Easy     | Completed | Tricky Question -- Required Sub-query, used DISTINCT function and HAVING |
+| Spotify Popular Tracks | Medium     | Completed | Used COUNT DISTINCT in CTE as well as in the Main Query to filter the accurate data and used Limit to get top 2 entries. Alternatively a subquery can also be used. |
 
