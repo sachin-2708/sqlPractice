@@ -40,3 +40,15 @@ WHERE unique_listners >= 2
 GROUP BY pt.track_id
 ORDER BY no_of_playlist DESC
 LIMIT 2
+
+-- Alternate Solution
+SELECT track_id, COUNT(DISTINCT playlist_id) AS no_of_playlist
+FROM playlist_tracks
+WHERE playlist_id IN (
+  SELECT playlist_id
+  FROM playlist_plays
+  GROUP BY playlist_id
+  HAVING COUNT(DISTINCT user_id) >= 2)
+GROUP BY track_id
+ORDER BY no_of_playlist DESC
+LIMIT 2
