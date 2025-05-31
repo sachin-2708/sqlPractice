@@ -36,5 +36,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Spotify Popular Tracks | Medium     | Completed | Used COUNT DISTINCT in CTE as well as in the Main Query to filter the accurate data and used Limit to get top 2 entries. Alternatively a subquery can also be used. |
 | Uber Driver Ratings | Medium     | Completed | Used NTILE() window function to divide the data into a group based on performance parameters |
 | Excess/insufficient Inventory | Medium     | Completed | Learnt Union function, CHAR function and hard-coding value into a row when you want overall value |
-| Zomato Membership | Medium     | Completed | Used a subquery in a CTE and joined multiple CTEs to come at a solution |
+| Zomato Membership | Medium     | Completed | Used a subquery in a CTE and joined multiple CTEs to come at a solution -- With two Alternate Solution, one using CASE WHEN and another using ROW_NUMBER window function |
+| Female Contribution | Medium     | Completed | Practiced CTE with SUM and CASE WHEN statements |
+
 
