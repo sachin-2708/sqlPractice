@@ -38,5 +38,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Excess/insufficient Inventory | Medium     | Completed | Learnt Union function, CHAR function and hard-coding value into a row when you want overall value |
 | Zomato Membership | Medium     | Completed | Used a subquery in a CTE and joined multiple CTEs to come at a solution -- With two Alternate Solution, one using CASE WHEN and another using ROW_NUMBER window function |
 | Female Contribution | Medium     | Completed | Practiced CTE with SUM and CASE WHEN statements |
+| Premium Customers | Medium     | Completed | Used sub_query in Having clause to filter data; alternatively used CTE and AVG window function to compare values |
 
 
