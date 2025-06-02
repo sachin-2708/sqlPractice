@@ -39,5 +39,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Zomato Membership | Medium     | Completed | Used a subquery in a CTE and joined multiple CTEs to come at a solution -- With two Alternate Solution, one using CASE WHEN and another using ROW_NUMBER window function |
 | Female Contribution | Medium     | Completed | Practiced CTE with SUM and CASE WHEN statements |
 | Premium Customers | Medium     | Completed | Used sub_query in Having clause to filter data; alternatively used CTE and AVG window function to compare values |
+| CIBIL Score | Hard     | Completed | Used UNION to combine Loan and Credit tables, hard coded values. Used 3 CTEs to arrive at the solution. |
 
 
