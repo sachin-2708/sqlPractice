@@ -40,5 +40,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Female Contribution | Medium     | Completed | Practiced CTE with SUM and CASE WHEN statements |
 | Premium Customers | Medium     | Completed | Used sub_query in Having clause to filter data; alternatively used CTE and AVG window function to compare values |
 | CIBIL Score | Hard     | Completed | Used UNION to combine Loan and Credit tables, hard coded values. Used 3 CTEs to arrive at the solution. |
+| Airbnb Top Hosts | Medium   | Completed | Simple solution using Count Distinct and Having condition, alternatively used Count windows function in CTE to filter the data in the main query. |
 
 
