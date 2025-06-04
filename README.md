@@ -42,5 +42,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | CIBIL Score | Hard     | Completed | Used UNION to combine Loan and Credit tables, hard coded values. Used 3 CTEs to arrive at the solution. |
 | Airbnb Top Hosts | Medium   | Completed | Simple solution using Count Distinct and Having condition, alternatively used Count windows function in CTE to filter the data in the main query. |
 | Best Employee Award | Medium   | Completed | Used 2 CTEs and understood the logic for ranking from the hint |
+| Business Expansion | Medium   | Completed | Practised Min function to find the 1st date and then used it as CTE |
 
 
