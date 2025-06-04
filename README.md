@@ -45,5 +45,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Business Expansion | Medium   | Completed | Practised Min function to find the 1st date and then used it as CTE |
 | Hero Products | Medium   | Completed | Used two order by conditions in the row number window function to identify product and category |
 | Account Balance | Medium   | Completed | Union to join same table with transactions credited and debited and then use it in CTE to find the final balance. |
-
+| Adverse Reactions | Medium   | Completed | Two approaches used, first using CTE to filter data while second was just using left join to multiple on condition |
 
