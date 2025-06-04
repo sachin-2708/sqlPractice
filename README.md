@@ -46,4 +46,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Hero Products | Medium   | Completed | Used two order by conditions in the row number window function to identify product and category |
 | Account Balance | Medium   | Completed | Union to join same table with transactions credited and debited and then use it in CTE to find the final balance. |
 | Adverse Reactions | Medium   | Completed | Two approaches used, first using CTE to filter data while second was just using left join to multiple on condition |
+| Balanced Team | Medium   | Completed | Using Sum Windows function, calculated running total and then using that CTE, first identified Seniors and then using Union All Juniors and Seniors were added to it. |
+
 
