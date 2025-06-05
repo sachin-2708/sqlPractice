@@ -47,5 +47,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Account Balance | Medium   | Completed | Union to join same table with transactions credited and debited and then use it in CTE to find the final balance. |
 | Adverse Reactions | Medium   | Completed | Two approaches used, first using CTE to filter data while second was just using left join to multiple on condition |
 | Balanced Team | Medium   | Completed | Using Sum Windows function, calculated running total and then using that CTE, first identified Seniors and then using Union All Juniors and Seniors were added to it. |
+| Loan Repayment | Medium   | Completed | Using Max and Sum in CTE to calculate the repayment amount and last date, joined to the main table. Alternatively, used case when statement in another case when statement for calculations  |
 
 
