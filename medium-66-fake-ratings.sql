@@ -26,4 +26,19 @@ select rating_id, product_id, user_id, rating
 from cte2
 where rnk = 1
 
---
+-- Alternate Solution
+
+with avg_cte as
+(select product_id,
+avg(rating) avg_rating
+from product_ratings
+group by product_id),
+rnking as
+(select p.rating_id, p.product_id, p.user_id, p.rating, 
+row_number()over(partition by p.product_id order by abs(p.rating-a.avg_rating) desc) as rnk
+from product_ratings p
+join avg_cte a on a.product_id = p.product_id)
+
+select rating_id, product_id, user_id, rating
+from rnking
+where rnk = 1
