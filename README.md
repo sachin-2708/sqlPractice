@@ -51,5 +51,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Employees Payout | Medium   | Completed | JOIN, CTE and CASE WHEN statements used to get the solution |
 | Expenses Excluding MasterCard | Medium   | Completed | Created two CTEs to seperate the expenses and then joined the two CTEs to find the final result |
 | Order Lead Time | Medium   | Completed | Learnt Date_add, datediff functions to calculate revised dates, using them in CTEs to find final solution. Learnt to join table using between dates. Alternate solution is to calculate the days between revised order and ship dates and subtract the holidays between them. |
+| Instagram Marketing Agency | Medium   | Completed | Simple CASE WHEN and AVG funnction used to calculate the output |
 
 
