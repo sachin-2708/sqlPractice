@@ -36,3 +36,23 @@ select c.order_id, c.no_of_days-count(h.holiday_date) as lead_time
 from cte2 c
 left join holidays h on h.holiday_date between c.revised_order_date and c.revised_ship_date
 group by c.order_id, c.no_of_days;
+
+-- Alternate Solution
+
+
+with cte as
+(select *,
+case when dayofweek(order_date) = 1 then date_add(order_date, interval 1 day)
+when dayofweek(order_date) = 7 then date_add(order_date, interval 2 day) else order_date end as revised_order_date,
+case when dayofweek(ship_date) = 1 then date_add(ship_date, interval -2 day)
+when dayofweek(ship_date) = 7 then date_add(ship_date, interval -1 day) else ship_date end as revised_ship_date
+from orders)
+
+select c.order_id,
+(c.revised_ship_date-c.revised_order_date)-count(distinct h.holiday_date) as lead_time
+from cte c
+left join holidays h on h.holiday_date between c.revised_order_date and c.revised_ship_date
+group by c.order_id,
+c.revised_ship_date,
+c.revised_order_date;
+
