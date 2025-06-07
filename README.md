@@ -50,5 +50,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Loan Repayment | Medium   | Completed | Using Max and Sum in CTE to calculate the repayment amount and last date, joined to the main table. Alternatively, used case when statement in another case when statement for calculations  |
 | Employees Payout | Medium   | Completed | JOIN, CTE and CASE WHEN statements used to get the solution |
 | Expenses Excluding MasterCard | Medium   | Completed | Created two CTEs to seperate the expenses and then joined the two CTEs to find the final result |
+| Order Lead Time | Medium   | Completed | Learnt Date_add, datediff functions to calculate revised dates, using them in CTEs to find final solution. Learnt to join table using between dates |
 
 
