@@ -53,5 +53,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Order Lead Time | Medium   | Completed | Learnt Date_add, datediff functions to calculate revised dates, using them in CTEs to find final solution. Learnt to join table using between dates. Alternate solution is to calculate the days between revised order and ship dates and subtract the holidays between them. |
 | Instagram Marketing Agency | Medium   | Completed | Simple CASE WHEN and AVG funnction used to calculate the output |
 | Fake Ratings | Medium   | Completed | Employed AVG Windor funnction to get average in a column to subtract from the main value and then ranked using ROW_NUMBER to get the solution |
+| Food Preparation Time | Medium   | Completed | Learnt the TIMESTAMPDIFF and MINUTE function to calculate the avg food prep time. |
 
 
