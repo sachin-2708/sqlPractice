@@ -54,5 +54,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Instagram Marketing Agency | Medium   | Completed | Simple CASE WHEN and AVG funnction used to calculate the output |
 | Fake Ratings | Medium   | Completed | Employed AVG Windor funnction to get average in a column to subtract from the main value and then ranked using ROW_NUMBER to get the solution |
 | Food Preparation Time | Medium   | Completed | Learnt the TIMESTAMPDIFF and MINUTE function to calculate the avg food prep time. |
+| Late Food Deliveries | Medium   | Completed | Tricky Question, had to find order which were delayed due to riders but calculation on time prepared orders. |
+
 
 
