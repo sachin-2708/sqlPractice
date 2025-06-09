@@ -56,6 +56,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Food Preparation Time | Medium   | Completed | Learnt the TIMESTAMPDIFF and MINUTE function to calculate the avg food prep time. |
 | Late Food Deliveries | Medium   | Completed | Tricky Question, had to find order which were delayed due to riders but calculation on time prepared orders. |
 | Country Indicators | Medium   | Completed | UNION ALL to flatten the table by shifting multiple years columns only one column and then using ROW_NUMBERS partitioned by country and indicator to get the ranks necessary for the solution. |
+| 2022 vs 2023 vs 2024 Sales | Medium   | Completed | Using case when statements, the years wise data was brought into columns and then compared |
 
 
 
