@@ -58,7 +58,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Country Indicators | Medium   | Completed | UNION ALL to flatten the table by shifting multiple years columns only one column and then using ROW_NUMBERS partitioned by country and indicator to get the ranks necessary for the solution. |
 | 2022 vs 2023 vs 2024 Sales | Medium   | Completed | Using case when statements, the years wise data was brought into columns and then compared |
 | Hotel Booking Mistake | Medium   | Completed | Flattening the tables by joining the Date Dimension table to the main table, and grouping the number of bookings for the customers for the same room, using Group_Concat to get the comma seperated list of affected customers  |
-
+| Child and Parents | Medium   | Completed | Joined the same table two times with conditions to get mother and father assigned to child ID. Used SQL trick to aggregate child_id column to avoid NULL values on mother and father columns |
 
 
 
