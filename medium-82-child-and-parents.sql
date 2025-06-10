@@ -30,3 +30,22 @@ select p1.name as child_name, c.mother_name, c.father_name
 from cte c
 join people p1 on p1.id = c.child_id
 order by child_name
+
+--
+with child as
+(select r.c_id as child_id, r.p_id as parent_id, p.name as child_name
+from relations r
+join people p on p.id = r.c_id)
+, parent as
+(select child_name, p1.name as parent_name, p1.gender
+from child c1
+join relations r1 on r1.p_id = c1.parent_id
+join people p1 on p1.id = c1.parent_id)
+
+select child_name,
+max(case when gender = 'F' then parent_name end) as mother_name,
+max(case when gender = 'M' then parent_name end) as father_name
+from parent
+group by child_name
+order by child_name
+
