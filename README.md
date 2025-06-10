@@ -59,7 +59,8 @@ I am solving problems of various difficulty levels to improve my data querying s
 | 2022 vs 2023 vs 2024 Sales | Medium   | Completed | Using case when statements, the years wise data was brought into columns and then compared |
 | Hotel Booking Mistake | Medium   | Completed | Flattening the tables by joining the Date Dimension table to the main table, and grouping the number of bookings for the customers for the same room, using Group_Concat to get the comma seperated list of affected customers  |
 | Child and Parents | Medium   | Completed | Joined the same table two times with conditions to get mother and father assigned to child ID. Used SQL trick to aggregate child_id column to avoid NULL values on mother and father columns |
-| Netflix Device Type (PART-1) | Medium   | Completed | User COUNT window function to get the device count and then did sum for aggregation. Alternative solution was to use Case When statement|
+| Netflix Device Type (PART-1) | Medium   | Completed | Used COUNT window function to get the device count and then did sum for aggregation. Alternative solution was to use Case When statement|
+| Netflix Device Type (PART-2) | Medium   | Completed | Grouped the counting by user_id and title to get the number of times the title was watched and then used case when to identify multiple device viewed and single device viewed cases  |
 
 
 
