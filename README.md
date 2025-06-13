@@ -64,6 +64,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Election Winner | Medium   | Completed | Various alternate solutions, important was two tables can also be joined using a comma in the Where Clause itself. Cross join can also be used if only one row table is to be joined to another table |
 | OTT Viewership | Medium   | Completed | Sum the duration and Rank the top two shows in each genre. Practiced CTEs |
 | Busiest Airline Route | Medium   | Completed | Used Case When to update values for Return flight tickets. Alternatively, origin and destination columns can be interchanged when it is a return flight and then the busiest route can be found. |
+| Credit Card Transactions (Part-2) | Medium   | Completed | Ranked using Window Function the highest and lowest amount credit cards, then using this in CTE, used Max to aggregate the data where we get 0 or null in the case when statements to collapse the entire columns into group of cities |
 
 
 
