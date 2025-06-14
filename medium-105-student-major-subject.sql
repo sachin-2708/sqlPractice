@@ -19,3 +19,15 @@ select student_id
 from student_courses
 group by student_id
 having count(*) = 1)
+
+-- Alternate Solution
+
+with cte as
+(select *,
+row_number()over(partition by student_id order by
+                 case when major_flag = 'Y' then 1 else 0 end desc) as rn
+from student_courses)
+
+select student_id, course_id
+from cte
+where rn = 1
