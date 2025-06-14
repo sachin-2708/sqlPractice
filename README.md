@@ -68,6 +68,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Loyal Customers | Medium   | Completed | Count Distinct products in orders table should be equal to count of products in products table to identify the customers who purchased all products and then putting them in Having statement |
 | Users With Valid Passwords | Medium   | Completed | Learnt a new function REGEXP_LIKE and [] array to identify the characters in that array; REGEXP can also be used here |
 | Student Major Subject | Medium   | Completed | Used a subquery to identify students with 1 subject and used it in where clause with OR to get them with students with more than 1 subject; Can also use alternate solution to rank the cases based on flags Y or N using the Case When statement by assigning flag values 1 and 0 |
+| boAt Lifestyle Marketing | Medium   | Completed | Created multiple CTEs based on the required conditions and then joined them; used two alternate solutions |
 
 
 
