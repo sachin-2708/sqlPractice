@@ -71,6 +71,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | boAt Lifestyle Marketing | Medium   | Completed | Created multiple CTEs based on the required conditions and then joined them; used two alternate solutions |
 | Products Sold in All Cities | Medium   | Completed | Find the product and city combination and then compare it to the number of cities in the city table. |
 | Top 5 Single-Purchase Spendings | Medium   | Completed | Simple solution using Max aggregation at customer level and then limiting it to top 5 rows; Alternately Rank window function was also used to identify purchases at customer level and ordering it at the main level. |
+| Reel Daily View Averages by State | Medium   | Completed | Used Max to find the highest cumulative views and then divided it by the no of days to find the avg daily views  |
 
 
 
