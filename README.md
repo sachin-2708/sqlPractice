@@ -70,6 +70,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Student Major Subject | Medium   | Completed | Used a subquery to identify students with 1 subject and used it in where clause with OR to get them with students with more than 1 subject; Can also use alternate solution to rank the cases based on flags Y or N using the Case When statement by assigning flag values 1 and 0 |
 | boAt Lifestyle Marketing | Medium   | Completed | Created multiple CTEs based on the required conditions and then joined them; used two alternate solutions |
 | Products Sold in All Cities | Medium   | Completed | Find the product and city combination and then compare it to the number of cities in the city table. |
+| Top 5 Single-Purchase Spendings | Medium   | Completed | Simple solution using Max aggregation at customer level and then limiting it to top 5 rows; Alternately Rank window function was also used to identify purchases at customer level and ordering it at the main level. |
 
 
 
