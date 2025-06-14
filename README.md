@@ -66,6 +66,8 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Busiest Airline Route | Medium   | Completed | Used Case When to update values for Return flight tickets. Alternatively, origin and destination columns can be interchanged when it is a return flight and then the busiest route can be found. |
 | Credit Card Transactions (Part-2) | Medium   | Completed | Ranked using Window Function the highest and lowest amount credit cards, then using this in CTE, used Max to aggregate the data where we get 0 or null in the case when statements to collapse the entire columns into group of cities |
 | Loyal Customers | Medium   | Completed | Count Distinct products in orders table should be equal to count of products in products table to identify the customers who purchased all products and then putting them in Having statement |
+| Users With Valid Passwords | Medium   | Completed | Learnt a new function REGEXP_LIKE and [] array to identify the characters in that array; REGEXP can also be used here |
+
 
 
 
