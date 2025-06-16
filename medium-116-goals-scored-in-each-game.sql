@@ -41,3 +41,14 @@ team2,
 sum(case when team2 = team_goal_cnt then 1 else 0 end) as score2
 from cte
 group by match_id, match_date, team1, team2
+
+-- Alternate Solution
+  
+select game.match_id,game.match_date,team1, 
+sum(case when team1=team_id then 1 else 0 end) as score1
+,team2, 
+sum(case when team2=team_id then 1 else 0 end) as score2
+from game 
+left join goal on game.match_id=goal.match_id
+group by game.match_id,game.match_date,team1,team2
+order by game.match_id;
