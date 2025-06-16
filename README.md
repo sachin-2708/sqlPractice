@@ -73,6 +73,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Top 5 Single-Purchase Spendings | Medium   | Completed | Simple solution using Max aggregation at customer level and then limiting it to top 5 rows; Alternately Rank window function was also used to identify purchases at customer level and ordering it at the main level. |
 | Reel Daily View Averages by State | Medium   | Completed | Used Max to find the highest cumulative views and then divided it by the no of days to find the avg daily views  |
 | Goals Scored in Each Game | Medium   | Completed | Joined the games and goals table and then used it in CTE; from this CTE, used Case When statement to sum the teams 1 and 2 goals scored.  |
+| COVID Risk by Age | Medium   | Completed | Created age groups using the Case When statement, and then summed the cases based on severity criteria  |
 
 
 
