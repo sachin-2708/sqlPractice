@@ -76,6 +76,6 @@ I am solving problems of various difficulty levels to improve my data querying s
 | COVID Risk by Age | Medium   | Completed | Created age groups using the Case When statement, and then summed the cases based on severity criteria  |
 | Recurring Monthly Customers | Medium   | Completed | Used Count and Count Distinct in the Having clause to filter data and get the correct solution |
 | Third Highest Salary | Medium   | Completed | Used Rank function in the CTE to get the 3rd ranking salary dept wise and then left joined cte to the main table and on condition having rank = 3; alternative solution - Using Case when rnk = 3 else null, we aggregate the data at departments using max and get the solution. |
-
+| Top 3 Netflix Shows | Medium   | Completed | Using Sum and Count Distinct for watch time and unique users, used rank function in CTE to identify top 3 users |
 
 
