@@ -74,6 +74,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Reel Daily View Averages by State | Medium   | Completed | Used Max to find the highest cumulative views and then divided it by the no of days to find the avg daily views  |
 | Goals Scored in Each Game | Medium   | Completed | Joined the games and goals table and then used it in CTE; from this CTE, used Case When statement to sum the teams 1 and 2 goals scored.  |
 | COVID Risk by Age | Medium   | Completed | Created age groups using the Case When statement, and then summed the cases based on severity criteria  |
+| Recurring Monthly Customers | Medium   | Completed | Used Count and Count Distinct in the Having clause to filter data and get the correct solution |
 
 
 
