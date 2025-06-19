@@ -83,4 +83,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Music Lovers | Medium   | Completed | Using Distinct Count to count the distinct number of days for login and then comparing it with the difference in days between user's first login and current date using CURDATE() to identify daily logins |
 | Myntra Campaign Effectiveness | Medium   | Completed | Used logic to find the last month and 3rd month from current date to identify customers in the previous 3 months excluding current month; Alternate solution is to use Date_sub and Date_format to compare dates with start of current month using curdate(), %Y-%m-01 |
 | Customer Data Cleaning | Medium   | Completed | Trim, lower, coalesce and regex_replace(phone,[^0-9],'') used to clean the data and row number used to identify the duplicate entries  |
+| Frequent Flyers | Medium   | Completed | Used inner join to join two tables and used date_sub and curdate() to put 1 year condition and then counted th combination of passenger id and airport and filter 5 or more flights from same airport using having   |
 
