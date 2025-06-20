@@ -85,4 +85,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Customer Data Cleaning | Medium   | Completed | Trim, lower, coalesce and regex_replace(phone,[^0-9],'') used to clean the data and row number used to identify the duplicate entries  |
 | Frequent Flyers | Medium   | Completed | Used inner join to join two tables and used date_sub and curdate() to put 1 year condition and then counted th combination of passenger id and airport and filter 5 or more flights from same airport using having   |
 | SQL Champions | Medium   | Completed | Used Subquery to identify users who don't have SQL skills and then main query identified students not in sub query; alternately, count window function can be used to identify only one skill that is SQL. |
+| Individual Contributors | Medium   | Completed | Found the unique manager ids and then compared it with employee ids to identify employees who are not managers yet; Alternatively, we can use left join distinct manager ID to main table and then identify the null values |
 
