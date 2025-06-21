@@ -88,4 +88,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Individual Contributors | Medium   | Completed | Found the unique manager ids and then compared it with employee ids to identify employees who are not managers yet; Alternatively, we can use left join distinct manager ID to main table and then identify the null values |
 | Employees Not Promoted | Medium   | Completed | Identify the max promotion date for all the employees and then filter it further by putting the condition that max promotion date is before 1 year from today; alternate solution is to identify the emp promoted in last year and joining them to employee table and then again joining them to employee table |
 | Active Viewers by Day | Medium   | Completed | Join the two tables and then for viewer_id and view_date combination count distinct authors and articles |
+| Grand Slam Titles | Medium   | Completed | Flatten the championships table using union all and then join it with players and then aggregate it using count |
 
