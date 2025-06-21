@@ -91,4 +91,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Grand Slam Titles | Medium   | Completed | Flatten the championships table using union all and then join it with players and then aggregate it using count |
 | Top 2 Scores per Student | Medium   | Completed | Using Dense Rank, order the data for students and then sum the top 2 marks for each students |
 | Sequence Expansion | Medium   | Completed | Practised Recursive CTE |
+| [New and Repeat Customers](https://github.com/sachin-2708/sqlPractice/blob/main/hard-9-new-and-repeat-customers-Q3.sql) | Hard   | Completed | Identifying the 1st order of customers in cte and then joining it to the main table to compare first order and repeat order in case when statements |
 
