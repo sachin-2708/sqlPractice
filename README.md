@@ -90,4 +90,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Active Viewers by Day | Medium   | Completed | Join the two tables and then for viewer_id and view_date combination count distinct authors and articles |
 | Grand Slam Titles | Medium   | Completed | Flatten the championships table using union all and then join it with players and then aggregate it using count |
 | Top 2 Scores per Student | Medium   | Completed | Using Dense Rank, order the data for students and then sum the top 2 marks for each students |
+| Sequence Expansion | Medium   | Completed | Practised Recursive CTE |
 
