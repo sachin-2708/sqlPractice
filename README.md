@@ -89,4 +89,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Employees Not Promoted | Medium   | Completed | Identify the max promotion date for all the employees and then filter it further by putting the condition that max promotion date is before 1 year from today; alternate solution is to identify the emp promoted in last year and joining them to employee table and then again joining them to employee table |
 | Active Viewers by Day | Medium   | Completed | Join the two tables and then for viewer_id and view_date combination count distinct authors and articles |
 | Grand Slam Titles | Medium   | Completed | Flatten the championships table using union all and then join it with players and then aggregate it using count |
+| Top 2 Scores per Student | Medium   | Completed | Using Dense Rank, order the data for students and then sum the top 2 marks for each students |
 
