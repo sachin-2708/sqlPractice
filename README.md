@@ -14,7 +14,7 @@ I am solving problems of various difficulty levels to improve my data querying s
 
 | Problem Name          | Difficulty | Status    | Notes                          |
 |-----------------------|------------|-----------|--------------------------------|
-| LinkedIn Top Voice    | Medium     | Completed | Learned to use DATE_FORMAT, Year and Month functions |
+| [LinkedIn Top Voice](https://github.com/sachin-2708/sqlPractice/blob/main/medium-3-linkedIn-top-voice-Q3.sql)    | Medium     | Completed | Learned to use DATE_FORMAT, Year and Month functions |
 | Electricity Consumption    | Easy     | Completed | Practised Agg functions SUM and AVG and string function LEFT |
 | Math Champion    | Easy     | Completed | Used Subquery to find overall Avg value to use in the main query |
 | Deliveroo Top Customer    | Easy     | Completed | Revised Order By and Limit functions |
