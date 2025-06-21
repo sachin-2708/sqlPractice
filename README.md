@@ -17,25 +17,25 @@ I am solving problems of various difficulty levels to improve my data querying s
 | [LinkedIn Top Voice](https://github.com/sachin-2708/sqlPractice/blob/main/medium-3-linkedIn-top-voice-Q3.sql)    | Medium     | Completed | Learned to use DATE_FORMAT, Year and Month functions |
 | [Electricity Consumption](https://github.com/sachin-2708/sqlPractice/blob/main/easy-06-electricity-consumption.sql)    | Easy     | Completed | Practised Agg functions SUM and AVG and string function LEFT |
 | [Math Champion](https://github.com/sachin-2708/sqlPractice/blob/main/easy-11-math-champion.sql)| Easy     | Completed | Used Subquery to find overall Avg value to use in the main query |
-| Deliveroo Top Customer    | Easy     | Completed | Revised Order By and Limit functions |
-| Employee Salary Levels | Easy     | Completed | Learned to use CTE, CASE WHEN statements and AVG and GROUP BY functions |
-| Income Tax Returns | Medium     | Completed | Used CTE and CROSS JOIN to identify missed return and Used Case When condition with operators and applied Multiple ON conditions to join the CTE to main table |
-| Software vs Data Analytics Engineers | Medium     | Completed | Practised SUM and CASE WHEN statements with wildcard |
+| [Deliveroo Top Customer](https://github.com/sachin-2708/sqlPractice/blob/main/easy-12-deliveroo-top-customer.sql)    | Easy     | Completed | Revised Order By and Limit functions |
+| [Employee Salary Levels](https://github.com/sachin-2708/sqlPractice/blob/main/easy-30-employee-salary-levels.sql) | Easy     | Completed | Learned to use CTE, CASE WHEN statements and AVG and GROUP BY functions |
+| [Income Tax Returns](https://github.com/sachin-2708/sqlPractice/blob/main/medium-27-income-tax-returns.sql) | Medium     | Completed | Used CTE and CROSS JOIN to identify missed return and Used Case When condition with operators and applied Multiple ON conditions to join the CTE to main table |
+| [Software vs Data Analytics Engineers](https://github.com/sachin-2708/sqlPractice/blob/main/medium-29-software-vs-data-analytics-engineers.sql) | Medium     | Completed | Practised SUM and CASE WHEN statements with wildcard |
 | Malware Detection | Hard     | Completed | Learned ROW_NUMBER, LEAD and COUNT window functions, used it in CTE to query data based on the given conditions |
-| Warikoo 20-6-20 | Medium     | Completed | Practised Cross Join and Group Concat function and employed arthimetic logics |
-| Average Order Value | Medium     | Completed | Used ROW_NUMBER AND MAX() OVER() functions to find difference of min and max avg values |
-| Employee vs Manager | Medium     | Completed | Practised Self Join which is critical if you only have one table for analysis |
+| [Warikoo 20-6-20](https://github.com/sachin-2708/sqlPractice/blob/main/medium-32-warikoo-20-6-20.sql) | Medium     | Completed | Practised Cross Join and Group Concat function and employed arthimetic logics |
+| [Average Order Value](https://github.com/sachin-2708/sqlPractice/blob/main/medium-33-average-order-value.sql) | Medium     | Completed | Used ROW_NUMBER AND MAX() OVER() functions to find difference of min and max avg values |
+| [Employee vs Manager](https://github.com/sachin-2708/sqlPractice/blob/main/medium-34-employee-vs-manager.sql) | Medium     | Completed | Practised Self Join which is critical if you only have one table for analysis |
 | Cancellation vs Return | Hard     | Completed | CTE & CASE WHEN THEN statement utilised. Understood concept of order returned and no returned, cancelled and not cancelled |
 | GAP Sales | Easy     | Completed | Practised Group By 2 columns and sum |
 | Walmart Sales Pattern | Hard     | Completed | Used multiple CTEs to come up with the solution; incorporated RANK window function in first CTE and then CASE WHEN, MAX function in the next CTE |
 | Zomato Customer Behavior | Hard     | Completed | Used multiple CTEs, DAYOFWEEK, CASE WHEN and SUM, AVG functions to come up with solution |
 | Electronics Items Sale | Easy     | Completed | Practiced multiple conditions in Having clause after using AVG aggregation |
-| AirBnB Business | Medium     | Completed | Used 3 CTEs and RANK windows function to come up with the AVG occupancy rate of rooms |
+| [AirBnB Business](https://github.com/sachin-2708/sqlPractice/blob/main/medium-36-airbnb-business.sql) | Medium     | Completed | Used 3 CTEs and RANK windows function to come up with the AVG occupancy rate of rooms |
 | Domain Names | Easy     | Completed | Practised the Substring_Index string function to get the domain name after @ |
 | Subject Average Score | Easy     | Completed | Tricky Question -- Required Sub-query, used DISTINCT function and HAVING |
-| Spotify Popular Tracks | Medium     | Completed | Used COUNT DISTINCT in CTE as well as in the Main Query to filter the accurate data and used Limit to get top 2 entries. Alternatively a subquery can also be used. |
-| Uber Driver Ratings | Medium     | Completed | Used NTILE() window function to divide the data into a group based on performance parameters |
-| Excess/insufficient Inventory | Medium     | Completed | Learnt Union function, CHAR function and hard-coding value into a row when you want overall value |
+| [Spotify Popular Tracks](https://github.com/sachin-2708/sqlPractice/blob/main/medium-37-spotify-popular-tracks.sql) | Medium     | Completed | Used COUNT DISTINCT in CTE as well as in the Main Query to filter the accurate data and used Limit to get top 2 entries. Alternatively a subquery can also be used. |
+| [Uber Driver Ratings](https://github.com/sachin-2708/sqlPractice/blob/main/medium-40-uber-driver-ratings.sql) | Medium     | Completed | Used NTILE() window function to divide the data into a group based on performance parameters |
+| [Excess/insufficient Inventory](https://github.com/sachin-2708/sqlPractice/blob/main/medium-44-excess-insufficient-nventory.sql) | Medium     | Completed | Learnt Union function, CHAR function and hard-coding value into a row when you want overall value |
 | Zomato Membership | Medium     | Completed | Used a subquery in a CTE and joined multiple CTEs to come at a solution -- With two Alternate Solution, one using CASE WHEN and another using ROW_NUMBER window function |
 | Female Contribution | Medium     | Completed | Practiced CTE with SUM and CASE WHEN statements |
 | Premium Customers | Medium     | Completed | Used sub_query in Having clause to filter data; alternatively used CTE and AVG window function to compare values |
