@@ -92,4 +92,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | Top 2 Scores per Student | Medium   | Completed | Using Dense Rank, order the data for students and then sum the top 2 marks for each students |
 | Sequence Expansion | Medium   | Completed | Practised Recursive CTE |
 | [New and Repeat Customers](https://github.com/sachin-2708/sqlPractice/blob/main/hard-9-new-and-repeat-customers-Q3.sql) | Hard   | Completed | Identifying the 1st order of customers in cte and then joining it to the main table to compare first order and repeat order in case when statements |
+| [The Little Master](https://github.com/sachin-2708/sqlPractice/blob/main/hard-10-the-little-master.sql) | Hard   | Completed | Using Sum window function without partition, only order by match no to get the running sum of runs scored, identify match no using case when runnning score is > 500 and then limiting it to 1st filtered match. And sum of run scored divided by the count of matches where status is out using case when, we calculate the batting average.  |
 
