@@ -25,10 +25,10 @@ I am solving problems of various difficulty levels to improve my data querying s
 | [Warikoo 20-6-20](https://github.com/sachin-2708/sqlPractice/blob/main/medium-32-warikoo-20-6-20.sql) | Medium     | Completed | Practised Cross Join and Group Concat function and employed arthimetic logics |
 | [Average Order Value](https://github.com/sachin-2708/sqlPractice/blob/main/medium-33-average-order-value.sql) | Medium     | Completed | Used ROW_NUMBER AND MAX() OVER() functions to find difference of min and max avg values |
 | [Employee vs Manager](https://github.com/sachin-2708/sqlPractice/blob/main/medium-34-employee-vs-manager.sql) | Medium     | Completed | Practised Self Join which is critical if you only have one table for analysis |
-| Cancellation vs Return | Hard     | Completed | CTE & CASE WHEN THEN statement utilised. Understood concept of order returned and no returned, cancelled and not cancelled |
+| [Cancellation vs Return](https://github.com/sachin-2708/sqlPractice/blob/main/hard-35-cancellation-vs-return.sql) | Hard     | Completed | CTE & CASE WHEN THEN statement utilised. Understood concept of order returned and no returned, cancelled and not cancelled |
 | GAP Sales | Easy     | Completed | Practised Group By 2 columns and sum |
-| Walmart Sales Pattern | Hard     | Completed | Used multiple CTEs to come up with the solution; incorporated RANK window function in first CTE and then CASE WHEN, MAX function in the next CTE |
-| Zomato Customer Behavior | Hard     | Completed | Used multiple CTEs, DAYOFWEEK, CASE WHEN and SUM, AVG functions to come up with solution |
+| [Walmart Sales Pattern](https://github.com/sachin-2708/sqlPractice/blob/main/hard-39-walmart-sales-pattern.sql) | Hard     | Completed | Used multiple CTEs to come up with the solution; incorporated RANK window function in first CTE and then CASE WHEN, MAX function in the next CTE |
+| [Zomato Customer Behavior](https://github.com/sachin-2708/sqlPractice/blob/main/hard-41-zomato-customer-behavior.sql) | Hard     | Completed | Used multiple CTEs, DAYOFWEEK, CASE WHEN and SUM, AVG functions to come up with solution |
 | Electronics Items Sale | Easy     | Completed | Practiced multiple conditions in Having clause after using AVG aggregation |
 | [AirBnB Business](https://github.com/sachin-2708/sqlPractice/blob/main/medium-36-airbnb-business.sql) | Medium     | Completed | Used 3 CTEs and RANK windows function to come up with the AVG occupancy rate of rooms |
 | Domain Names | Easy     | Completed | Practised the Substring_Index string function to get the domain name after @ |
