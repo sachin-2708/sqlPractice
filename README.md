@@ -103,6 +103,4 @@ I am solving problems of various difficulty levels to improve my data querying s
 | [The United States of America](https://github.com/sachin-2708/sqlPractice/blob/main/hard-22-the-united-states-of-america.sql) | Hard   | Completed | First aggregated the counts for all the records using country and satisfaction rating, then in CTE summed the counts and ranked them according to the highest count to identify the most frequent country name used for that job_satisfaction |
 | [Product Recommendation](https://github.com/sachin-2708/sqlPractice/blob/main/hard-23-product-recommendation.sql) | Hard   | Completed | Using Self Join to bring the product pairs together. Using filter product_id in first table > product_id in second table to avoid pair duplication like p1-p1 or between p1-p2 and p2-p1 and then counting the instances. |
 | [Points Table](https://github.com/sachin-2708/sqlPractice/blob/main/hard-42-points-table.sql) | Hard   | Completed | Using Union All bring the matches under rows by interchanging team_1 as team and team_2 as opponent and vice_versa. After that, use Case when to give Win and Draw flags. Once that is done, do the required calculations. |
-
-
-
+| [Employees Inside Office (Part 2)](https://github.com/sachin-2708/sqlPractice/blob/main/hard-47-employees-inside-office(Part-2).sql) | Hard   | Completed | Used LEAD() to get each employee's next action time. Adjusted entry and exit times to fit within office hours using CASE, summed up time spent in minutes using TIMESTAMPDIFF, skipping negative durations. |
