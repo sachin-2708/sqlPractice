@@ -13,12 +13,12 @@ Table : Transactions
 with cte as
 (select month(transaction_date) as transaction_month,
 sum(amount) as net_amount,
-count(case when amount < 0 then amount end) as month_credit_payment,
+count(case when amount < 0 then amount end) as month_credit_cnt,
 sum(case when amount < 0 then amount end) as month_credit_amount
 from transactions
 group by month(transaction_date))
 
 select sum(net_amount) -
-sum(case when month_credit_payment >= 2 and -(month_credit_amount) >= 100 then 0 else 5 end) 
+sum(case when month_credit_cnt >= 2 and -(month_credit_amount) >= 100 then 0 else 5 end) 
 - 5*(12-count(distinct transaction_month)) as final_balance
 from cte
