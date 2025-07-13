@@ -27,7 +27,7 @@ from orders
 group by product_id, order_date
 order by product_id)
 
-, combination as
+, all_product_dates as
 (select 
  	distinct(o.product_id), 
  	cd.cal_date
@@ -36,9 +36,10 @@ cross join orders o
 order by product_id, cd.cal_date)
 
 select 
-	c.product_id, 
-    c.cal_date as order_date, 
-    coalesce(s.sales,0) as sales, 
-    sum(coalesce(s.sales,0))over(partition by c.product_id order by c.cal_date rows between 2 preceding and current row) as rolling3_sum
-from combination c
-left join sales_cte s on s.product_id = c.product_id and s.order_date = c.cal_date
+	a.product_id, 
+	a.cal_date as order_date, 
+	coalesce(s.sales,0) as sales, 
+	sum(coalesce(s.sales,0))over(partition by c.product_id order by c.cal_date rows between 2 preceding and current row) as rolling3_sum
+from all_product_dates a
+left join sales_cte s 
+	on s.product_id = a.product_id and s.order_date = a.cal_date
