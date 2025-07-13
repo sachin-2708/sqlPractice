@@ -24,7 +24,7 @@ group by product_id, category
 order by total_sales desc
 limit 3
 
--- Alternate Solution
+-- Alternate Solution; scalable.
 
 with category_sales as
 (select category, sum(amount) as category_sales_total
