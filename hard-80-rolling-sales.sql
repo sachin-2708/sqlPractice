@@ -39,7 +39,7 @@ select
 	a.product_id, 
 	a.cal_date as order_date, 
 	coalesce(s.sales,0) as sales, 
-	sum(coalesce(s.sales,0))over(partition by c.product_id order by c.cal_date rows between 2 preceding and current row) as rolling3_sum
+	sum(coalesce(s.sales,0))over(partition by a.product_id order by a.cal_date rows between 2 preceding and current row) as rolling3_sum
 from all_product_dates a
 left join sales_cte s 
 	on s.product_id = a.product_id and s.order_date = a.cal_date
