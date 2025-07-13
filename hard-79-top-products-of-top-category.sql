@@ -26,21 +26,19 @@ limit 3
 
 -- Alternate Solution
 
-with cte as
-(select category, sum(amount) as cat_total
+with category_sales as
+(select category, sum(amount) as category_sales_total
 from orders
-group by category),
-ranked_cat as
-(select *,
-rank()over(order by cat_total desc) as rn
-from cte)
-, top_cat as
-(select category from ranked_cat 
-where rn = 1)
-
+group by category)
+, category_rank as
+(select category, category_sales_total,
+rank()over(order by category_sales_total desc) as rn
+from category_sales)
 select o.product_id, o.category, sum(o.amount) as total_sales
 from orders o
-join top_cat c on c.category = o.category
+where category = (select category
+                  from category_rank
+                  where rn = 1)
 group by o.product_id, o.category
 order by total_sales desc
 limit 3
