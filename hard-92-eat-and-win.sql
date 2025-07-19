@@ -1,4 +1,8 @@
--- A pizza eating competition is organized. All the participants are organized into different groups. In a contest , A participant who eat the most pieces of pizza is the winner and recieves their original bet plus 30% of all losing participants bets. In case of a tie all winning participants will get equal share (of 30%) divided among them .Return the winning participants' names for each group and amount of their payout(round to 2 decimal places) . ordered ascending by group_id , participant_name.
+-- A pizza eating competition is organized. All the participants are organized into different groups. 
+-- In a contest , A participant who eat the most pieces of pizza is the winner and recieves their original bet plus 30% of all losing participants bets. 
+-- In case of a tie all winning participants will get equal share (of 30%) divided among them.
+-- Return the winning participants' names for each group and amount of their payout(round to 2 decimal places). 
+-- Ordered ascending by group_id , participant_name.
 /*
 Tables: Competition
 +------------------+-------------+
