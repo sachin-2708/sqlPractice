@@ -15,22 +15,20 @@ with sent as
 (select from_user, count(*) as email_sent 
 from gmail_data
 group by from_user
-having count(*) >= 1
- order by email_sent desc)
-  
+order by email_sent desc)
+
 , received as
 (select to_user, count(*) as email_received 
 from gmail_data
 group by to_user
-having count(*) >= 1
 order by email_received desc)
-  
+
 , response as
 (select s.from_user as user_id, 
 100.0*s.email_sent/r.email_received as response_rate,
-ntile(4)over(order by 1.0*s.email_sent/r.email_received desc) as quartile
+ntile(4)over(order by 100.0*s.email_sent/r.email_received desc) as quartile
 from sent s
-join received r on s.from_user = r.to_user
+join received r on s.from_user = r.to_user and s.email_sent >= 1 and r.email_received >= 1
 order by response_rate desc)
 
 select user_id, response_rate
