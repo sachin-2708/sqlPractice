@@ -149,4 +149,5 @@ I am solving problems of various difficulty levels to improve my data querying s
 | [Inventory Reconciliation](https://github.com/sachin-2708/sqlPractice/blob/main/hard-156-inventory-reconciliation.sql) | Hard   | Completed | Geenrate row numbers for values and then using left and right joins combine the missing cases in both the systems. (Full Outer Join) |
 | [Salary Growth Analysis](https://github.com/sachin-2708/sqlPractice/blob/main/hard-157-salary-growth-analysis.sql) | Hard   | Completed | Based on the required output, get the data for each column in CTEs. |
 | [Customers with 3 Purchases](https://github.com/sachin-2708/sqlPractice/blob/main/hard-158-customers-with-3-purchases.sql) | Hard   | Completed | Rank the orders based on order date and get the first three order dates in separate columns using case when and then based on the given conditions filter the necessary rows. |
+| [IPv4 Validator](https://github.com/sachin-2708/sqlPractice/blob/main/hard-160-IPv4-validator.sql) | Hard   | Completed | Functions used length, cast, substring_index, regexp in case when statement to validate the IPs. |
 
