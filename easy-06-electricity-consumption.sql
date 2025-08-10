@@ -14,7 +14,7 @@
 
 
 select household_id, 
-	year(billing_period) bill_year,
+	year(billing_period) as bill_year,
     sum(consumption_kwh) as consumption_kwh,
     sum(total_cost) as total_cost,
     avg(consumption_kwh) as avg_consumption_kwh
