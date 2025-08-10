@@ -14,12 +14,12 @@
 
 
 select household_id, 
-	left(billing_period,4) bill_year,
+	year(billing_period) bill_year,
     sum(consumption_kwh) as consumption_kwh,
     sum(total_cost) as total_cost,
     avg(consumption_kwh) as avg_consumption_kwh
 from electricity_bill
 group by household_id, 
-		 left(billing_period,4)
+		 year(billing_period)
 order by household_id, 
 		 bill_year;
